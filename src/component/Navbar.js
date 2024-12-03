@@ -2,30 +2,30 @@ import React from 'react';
 
 // Define the navigation items (including the dropdown items)
 const navItems = [
-  { name: 'Home', link: 'https://themewagon.github.io/kider/index.html', isActive: true },
-  { name: 'About Us', link: 'https://themewagon.github.io/kider/about.html', isActive: false },
-  { name: 'Classes', link: 'https://themewagon.github.io/kider/classes.html', isActive: false },
+  { name: 'Home', link: '', isActive: true },
+  { name: 'About Us', link: '', isActive: false },
+  { name: 'Classes', link: '', isActive: false },
   {
     name: 'Pages',
     link: '#',
     isActive: false,
     dropdown: [
-      { name: 'School Facilities', link: 'https://themewagon.github.io/kider/facility.html' },
-      { name: 'Popular Teachers', link: 'https://themewagon.github.io/kider/team.html' },
-      { name: 'Become A Teacher', link: 'https://themewagon.github.io/kider/call-to-action.html' },
-      { name: 'Make Appointment', link: 'https://themewagon.github.io/kider/appointment.html' },
-      { name: 'Testimonial', link: 'https://themewagon.github.io/kider/testimonial.html' },
-      { name: '404 Error', link: 'https://themewagon.github.io/kider/404.html' },
+      { name: 'School Facilities', link: '' },
+      { name: 'Popular Teachers', link: '' },
+      { name: 'Become A Teacher', link: '' },
+      { name: 'Make Appointment', link: '' },
+      { name: 'Testimonial', link: '' },
+      { name: '404 Error', link: '' },
     ],
     isDropdown: true,
   },
-  { name: 'Contact Us', link: 'https://themewagon.github.io/kider/contact.html', isActive: false },
+  { name: 'Contact Us', link: '', isActive: false },
 ];
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
-      <a href="https://themewagon.github.io/kider/index.html" className="navbar-brand">
+      <a href="" className="navbar-brand">
         <h1 className="m-0 text-primary">
           <i className="fa fa-book-reader me-3"></i>Holy Child School
         </h1>
