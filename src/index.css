@@ -47,7 +47,7 @@
 #spinner {
   background-color: rgba(0, 0, 0, 0.87) !important; /* Transparent background for the backdrop */
   z-index: 9999; /* Ensure it's on top of other elements */
-  animation: fadeOutLoader 1s forwards; /* Show and hide the loader with fade effect */
+  animation: fadeOutLoader 0.1s forwards; /* Show and hide the loader with fade effect */
 }
 
 @keyframes fadeOutLoader {
